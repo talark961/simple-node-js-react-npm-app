@@ -15,4 +15,10 @@ the "Test" and "Deliver" stages of your Pipeline.
 
 ## TODO
 
-Automatically trigger a `Pipeline` run on pull request and/or merge into `master` branch and/or push to `master` branch
+Automatically trigger a `Pipeline` run on:
+
+1. pull request
+1. merge into `master` branch
+1. push to `master` branch.
+
+Trying TODO [1], trial 2...
