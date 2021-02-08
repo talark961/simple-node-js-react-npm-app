@@ -4,6 +4,7 @@ services:
     image: jenkinsci/blueocean
     environment:
       - DOCKER_HOST=tcp://host.docker.internal:2376
+      - DOCKER_OPTS="-H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock"
     user: root
     ports:
       - "8080:8080"
